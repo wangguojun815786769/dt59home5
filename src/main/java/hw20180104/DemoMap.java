@@ -32,7 +32,8 @@ public class DemoMap {
         map.put("4", "满族");
         // 查询
         // map.get("3");
-        LOG.info(map.get("3") + "" + map.get("4"));
+        LOG.info(map.get("3"));
+        LOG.info(map.get("4"));
 
         // 删除
         map.remove("1");
